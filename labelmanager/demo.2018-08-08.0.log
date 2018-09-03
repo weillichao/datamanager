@@ -1,0 +1,10 @@
+2018-08-08 11:35:40,424 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-08 11:35:40,429 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-08 11:35:40,453 INFO (FrameworkServlet.java:509)- FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-08-08 11:35:40,495 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2018-08-08 11:35:41,066 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2018-08-08 11:35:41,141 ERROR (GlobalExceptionHandler.java:24)- =======数据库查询失败=======
+2018-08-08 13:02:16,892 ERROR (GlobalExceptionHandler.java:24)- =======数据库查询失败=======
+2018-08-08 13:30:18,191 INFO (StartupInfoLogger.java:50)- Starting LabelmanagerApplication on DESKTOP-US5VR9D with PID 153828 (C:\Users\weilichao\labelmanager\target\classes started by weilichao in C:\Users\weilichao\labelmanager)
+2018-08-08 13:30:18,196 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-08-08 13:30:18,296 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cbbffcd: startup date [Wed Aug 08 13:30:18 CST 2018]; root of context hierarchy

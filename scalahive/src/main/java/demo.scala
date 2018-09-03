@@ -13,14 +13,14 @@ object demo {
       .appName("Spark Hive")
       .master("local[2]")
       .getOrCreate()
-
-    spark.sql("show tables").rdd.foreach(row => {
+    spark.sql("show tables").printSchema()
+   /* spark.sql("show tables").rdd.foreach(row => {
       println("row.size:" + row.size + "  " + row.getString(1))
     })
     var sqlrdd=spark.sql("show tables");
    sqlrdd.rdd.flatMap{name=>name.toString().split(",")}.foreach(row => {
       println(row.trim.toString)
-    })
+    })*/
   }
 
   def mapTest() {
